@@ -18,13 +18,14 @@ body{
 }
 
 #header h1{
-font-size: 50px;
-margin: 0 auto;
+  font-size: 50px;
+  margin: 0 auto;
 
 }
 
 #header h1 a.logo{
-text-decoration: none;
+  color: #252525;
+  text-decoration: none;
 }
 
 #header ul{
