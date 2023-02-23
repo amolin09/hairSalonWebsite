@@ -77,6 +77,56 @@ ul{
   color: #0ba39c;
 }
 
+#body {
+  margin: 0;
+  padding: 0 0 30px;
+  text-align: center;
+}
+
+#body h1 {
+  color: #fff;
+  display: inline;
+  font-family: poller_oneregular;
+  font-size: 35px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#body h1 span {
+  background: #252525;
+  display: inline-block;
+  padding: 15px 28px 12px;
+}
+
+#gallery{
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 24px 0 0;
+    width: 960px;
+}
+
+#gallery > .pic {
+  float: left;
+    margin: 0 10px 20px;
+    padding: 0;
+    width: 300px;
+}
+
+img{
+  border: 2px solid #1a1a1a;
+  display: block;
+  margin: 0;
+  padding: 0;
+  opacity: .8;
+  transition: 0.5s ease-in-out;
+}
+
+img:hover{
+  opacity: 1;
+}
+
 #footer{
   background: #252525;
   margin: 0;
