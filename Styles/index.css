@@ -9,9 +9,6 @@ body{
   padding:0;
 }
 
-/* div{
-  display: block;
-} */
 
 p{
   display: block;
@@ -34,7 +31,6 @@ h2{
 #header{
   margin: 0 auto;
   padding: 44px 0 50px;
-  /* background-color: lightblue; */
   text-align: center;
   width: 960px;
 }
@@ -43,6 +39,13 @@ h2{
   font-size: 50px;
   margin: 0 auto;
 
+}
+
+#header a.logo {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 340px;
 }
 
 #header h1 a.logo{
@@ -151,33 +154,42 @@ ul{
   color: #000;
   display: inline-block;
   font-family: 'Poller One', cursive;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
   margin: 0 0 18px;
   padding: 23px 27px 20px;
   text-transform: uppercase;
+  width: 500px;
+  text-align: center;
 }
 
 #body #featured div span{
   background:#252525;
   color:#fff;
   display: inline-block;
-  font-size: 20px;
-  margin: 7px 0;
+  font-size: 22px;
+  margin: 15px 0;
   padding: 12px 27px;
+  width: 500px;
 }
 
 #body #featured div a{
   background: #0ba39c;
   color:#fff;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 15px 0 0;
   padding: 26px 27px 22px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  width: 180px;
 }
+
+#body #featured div a:hover{
+  background-color:#40ccc5;
+}
+
 
 #body > ul li a{
   color: #000;
@@ -199,6 +211,10 @@ ul{
   padding: 0;
   opacity: .8;
   transition: 0.5s ease-in-out;
+}
+
+#body > ul li a:hover{
+  opacity: 1;
 }
 
 #body > ul li a img:hover{

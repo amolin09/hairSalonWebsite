@@ -35,6 +35,13 @@ p{
 
 }
 
+#header a.logo {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: 340px;
+}
+
 #header h1 a.logo{
   color: #252525;
   text-decoration: none;
