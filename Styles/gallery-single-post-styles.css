@@ -220,3 +220,126 @@ ul{
 #footer div ul li #pinterest:hover{
   background-position: -44px -132px;
 }
+
+@media(max-width: 960px){
+  body{
+    /* background-color: lightblue; */
+    min-width: 960px;
+  }
+
+  #header{
+    max-width: 800px;
+    margin: 0;
+  }
+
+  #body{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #body img{
+    width: 500px;
+  }
+
+  #body > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #body h1{
+    width: auto;
+    margin-left: 175px;
+  }
+
+  #body p{
+    width: 600px;
+    font-size: 16px;
+  }
+
+
+  #footer div{
+    width: 100%;
+  }
+  #footer div ul{
+    display: block;
+    float: none;
+    margin-left: 300px;
+    overflow: hidden;
+    width: 256px;
+  }
+}
+
+@media(max-width: 768px){
+  body{
+    /* background-color: red; */
+  }
+
+  #header{
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #body{
+    min-width: 768px;
+  }
+
+  #body h1{
+    margin: 0;
+  }
+
+  #body h1 span{
+    font-size: 18px;
+  }
+
+  #body > div{
+    width: auto;
+  }
+
+
+  #body img{
+    width: 480px;
+    margin-right: 400px;
+  }
+
+  #body h2{
+    width: 600px;
+  }
+
+  #body p{
+    width: 600px;
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 480px){
+  body{
+    /* background-color: lightgrey; */
+  }
+
+  #header{
+    min-width: 480px;
+  }
+
+  #body h1 span{
+    font-size: 16px;
+  }
+
+  #body img{
+    width: 380px;
+  }
+
+
+  #body{
+    min-width: 480px;
+  }
+
+  #footer div{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
