@@ -214,3 +214,107 @@ ul{
 #footer div ul li #pinterest:hover{
   background-position: -44px -132px;
 }
+
+@media(max-width: 960px){
+  body{
+    /* background-color: lightblue; */
+    /* min-width: auto; */
+  }
+
+  #header{
+    width: 800px;
+    /* margin: 0; */
+  }
+
+  #body{
+    /* width: 800px; */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+  }
+
+  div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #body h1{
+    font-size: 25px;
+  }
+
+
+  #footer div{
+    width: 100%;
+  }
+  #footer div ul{
+    display: block;
+    float: none;
+    margin-left: 300px;
+    overflow: hidden;
+    width: 256px;
+  }
+}
+
+@media(max-width: 768px){
+  body{
+    /* background-color: red; */
+  }
+
+  #header{
+    width: 500px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #body{
+    min-width: 480px;
+  }
+
+
+  #body h1{
+    margin-right: 275px;
+  }
+
+  #body h1 span{
+    font-size: 18px;
+  }
+
+  #gallery{
+    margin-right: 425px;
+    width: 400px;
+  }
+
+  #gallery > .pic{
+    float: none;
+  }
+ 
+}
+
+@media(max-width: 480px){
+  body{
+    /* background-color: lightgrey; */
+  }
+
+  #header{
+    min-width: 480px;
+  }
+
+  #body h1 span{
+    font-size: 16px;
+  }
+
+
+  #body{
+    min-width: 480px;
+  }
+
+  #footer div{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
