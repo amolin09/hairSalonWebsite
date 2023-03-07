@@ -326,13 +326,15 @@ ul{
   }
 }
 
-@media(max-width: 480px){
+@media(max-width: 500px){
   body{
     /* background-color: lightgrey; */
+    min-width: 100%;
   }
 
   #header{
-    min-width: 480px;
+    min-width: 100%;
+    width: 100%;
   }
 
   #body h1 span{
@@ -365,7 +367,8 @@ ul{
   }
 
   #body{
-    min-width: 480px;
+    min-width: 100%;
+    width: 100%;
   }
 
   #footer div{
