@@ -5,7 +5,8 @@ body{
   font-weight: normal;
   line-height: 1;
   margin: 0;
-  min-width: 960px;
+  /* min-width: 960px; */
+  /* I wouldn't set a min-width on the body bc that removes the ability to be responsive. */
   padding:0;
 }
 
@@ -32,7 +33,7 @@ h2{
   margin: 0 auto;
   padding: 44px 0 50px;
   text-align: center;
-  width: 960px;
+  /* width: 960px; */
 }
 
 #header h1{
@@ -99,7 +100,7 @@ ul{
 #body > div{
   margin: 0 auto;
   padding: 0;
-  width: 960px;
+  /* width: 960px; */
 }
 
 #body span{
@@ -109,12 +110,12 @@ ul{
 #body > ul{
   margin: 0 auto;
   overflow: hidden;
-  width: 700px;
+  /* width: 700px; */
   display: flex;
   justify-content: space-evenly;
   list-style: none;
   padding: 24px 0 0;
-  width: 960px;
+  /* width: 960px; */
 }
 
 #body #featured{
@@ -160,7 +161,7 @@ ul{
   margin: 0 0 18px;
   padding: 23px 27px 20px;
   text-transform: uppercase;
-  width: 500px;
+  /* width: 500px; */
   text-align: center;
 }
 
@@ -171,7 +172,7 @@ ul{
   font-size: 22px;
   margin: 15px 0;
   padding: 12px 27px;
-  width: 500px;
+  /* width: 500px; */
 }
 
 #body #featured div a{
@@ -377,7 +378,6 @@ ul{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: -250px;
   }
 
   #header h1{
@@ -395,21 +395,24 @@ ul{
 
   #body #featured{
     display: flex;
+    flex-direction: column;
   }
 
   #body #featured div{
-    left: 0%;
-    margin-left: 20%;
-    margin-top: 50px;
+    /* margin-left: 20%;
+    margin-top: 50px; */
     padding: 0 0 0 0px;
     position: absolute;
-    top: 100%;
+    top: 10px;
+    left: 10px;
     text-align: left;
     /* width: 300px; */
+    margin: 0;
+    padding: 0;
   }
 
   #body > ul{
-    margin-top: 400px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
   }
